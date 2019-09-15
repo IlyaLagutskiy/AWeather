@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/city"
+            android:gravity="center"
+            android:textColor="@color/colorBackgroundText"
+            android:textSize="10pt">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/currentTemperature"
+            android:textAlignment="center"
+            android:textColor="@color/colorCurrentTemperature"
+            android:textSize="30pt">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/currentCloudAmount"
+            android:textAlignment="center"
+            android:textColor="@color/colorBackgroundText"
+            android:textSize="8pt">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/timeNow"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="7pt">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/ios11weatherrainicon">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/currentTemperature"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="7pt">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/timeNowPlus1H"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="7pt">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/ios11weatherdrizzleicon">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/temperaturePlus1H"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="7pt">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/timeNowPlus2H"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="7pt">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/ios11weathercloudyicon">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/temperaturePlus2H"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="7pt">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/timeNowPlus3H"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="7pt">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/ios11weathercloudyicon">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/temperaturePlus3H"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="7pt">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/timeNowPlus4H"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="7pt">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/ios11weatherclearnighticon">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/temperaturePlus4H"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="7pt">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="@string/datePlus1D"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="8pt">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    app:srcCompat="@drawable/ios11weatherdrizzleicon">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center|right"
+                    android:text="@string/weatherPlus1D"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="8pt">
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="@string/datePlus2D"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="8pt">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    app:srcCompat="@drawable/ios11weatherheavyrainicon">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center|right"
+                    android:text="@string/weatherPlus2D"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="8pt">
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="@string/datePlus3D"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="8pt">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    app:srcCompat="@drawable/ios11weathersunnyicon">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center|right"
+                    android:text="@string/weatherPlus3D"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="8pt">
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="@string/datePlus4D"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="8pt">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    app:srcCompat="@drawable/ios11weatherpartlysunnyicon">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center|right"
+                    android:text="@string/weatherPlus4D"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="8pt">
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="@string/datePlus5D"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="8pt">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    app:srcCompat="@drawable/ios11weathercloudyicon">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center|right"
+                    android:text="@string/weatherPlus5D"
+                    android:textColor="@color/colorCurrentTemperature"
+                    android:textSize="8pt">
+
+                </TextView>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
