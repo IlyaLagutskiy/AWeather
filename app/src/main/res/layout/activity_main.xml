@@ -9,10 +9,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/bckgrnd"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
-        android:background="@drawable/bckgrnd">
+        tools:layout_editor_absoluteY="0dp">
 
         <TextView
             android:layout_width="match_parent"
@@ -21,7 +21,7 @@
             android:gravity="center"
             android:text="@string/city"
             android:textColor="@color/colorBackgroundText"
-            android:textSize="10pt">
+            android:textSize="20sp">
 
         </TextView>
 
@@ -31,7 +31,7 @@
             android:text="@string/currentTemperature"
             android:textAlignment="center"
             android:textColor="@color/colorCurrentTemperature"
-            android:textSize="30pt">
+            android:textSize="70sp">
 
         </TextView>
 
@@ -41,7 +41,7 @@
             android:text="@string/currentCloudAmount"
             android:textAlignment="center"
             android:textColor="@color/colorBackgroundText"
-            android:textSize="8pt">
+            android:textSize="18sp">
 
         </TextView>
 
@@ -58,12 +58,10 @@
                 android:orientation="vertical">
 
                 <TextView
+                    style="@style/textTodayStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/timeNow"
-                    android:textAlignment="center"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="7pt">
+                    android:text="@string/timeNow">
 
                 </TextView>
 
@@ -75,12 +73,10 @@
                 </ImageView>
 
                 <TextView
+                    style="@style/textTodayStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/currentTemperature"
-                    android:textAlignment="center"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="7pt">
+                    android:text="@string/currentTemperature">
 
                 </TextView>
 
@@ -93,12 +89,10 @@
                 android:orientation="vertical">
 
                 <TextView
+                    style="@style/textTodayStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/timeNowPlus1H"
-                    android:textAlignment="center"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="7pt">
+                    android:text="@string/timeNowPlus1H">
 
                 </TextView>
 
@@ -110,12 +104,10 @@
                 </ImageView>
 
                 <TextView
+                    style="@style/textTodayStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/temperaturePlus1H"
-                    android:textAlignment="center"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="7pt">
+                    android:text="@string/temperaturePlus1H">
 
                 </TextView>
 
@@ -128,12 +120,10 @@
                 android:orientation="vertical">
 
                 <TextView
+                    style="@style/textTodayStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/timeNowPlus2H"
-                    android:textAlignment="center"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="7pt">
+                    android:text="@string/timeNowPlus2H">
 
                 </TextView>
 
@@ -145,12 +135,10 @@
                 </ImageView>
 
                 <TextView
+                    style="@style/textTodayStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/temperaturePlus2H"
-                    android:textAlignment="center"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="7pt">
+                    android:text="@string/temperaturePlus2H">
 
                 </TextView>
 
@@ -163,12 +151,10 @@
                 android:orientation="vertical">
 
                 <TextView
+                    style="@style/textTodayStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/timeNowPlus3H"
-                    android:textAlignment="center"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="7pt">
+                    android:text="@string/timeNowPlus3H">
 
                 </TextView>
 
@@ -180,12 +166,10 @@
                 </ImageView>
 
                 <TextView
+                    style="@style/textTodayStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/temperaturePlus3H"
-                    android:textAlignment="center"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="7pt">
+                    android:text="@string/temperaturePlus3H">
 
                 </TextView>
 
@@ -198,12 +182,10 @@
                 android:orientation="vertical">
 
                 <TextView
+                    style="@style/textTodayStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/timeNowPlus4H"
-                    android:textAlignment="center"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="7pt">
+                    android:text="@string/timeNowPlus4H">
 
                 </TextView>
 
@@ -215,12 +197,10 @@
                 </ImageView>
 
                 <TextView
+                    style="@style/textTodayStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/temperaturePlus4H"
-                    android:textAlignment="center"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="7pt">
+                    android:text="@string/temperaturePlus4H">
 
                 </TextView>
 
@@ -231,93 +211,49 @@
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp">
+            android:layout_margin="20dp">
 
             <TableRow>
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="15dp"
-                    android:layout_weight="1"
-                    android:gravity="center|left"
-                    android:text="@string/datePlus1D"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="8pt">
-
-                </TextView>
+                    style="@style/textWeatherTableLeft"
+                    android:text="@string/datePlus1D" />
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_weight="3"
-                    app:srcCompat="@drawable/ios11weatherdrizzleicon">
-
-                </ImageView>
+                    app:srcCompat="@drawable/ios11weatherdrizzleicon" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginRight="15dp"
-                    android:layout_weight="1"
-                    android:gravity="center|right"
-                    android:text="@string/weatherPlus1D"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="8pt">
-
-                </TextView>
+                    style="@style/textWeatherTableRight"
+                    android:text="@string/weatherPlus1D" />
 
             </TableRow>
 
             <TableRow>
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="15dp"
-                    android:layout_weight="1"
-                    android:gravity="center|left"
-                    android:text="@string/datePlus2D"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="8pt">
-
-                </TextView>
+                    style="@style/textWeatherTableLeft"
+                    android:text="@string/datePlus2D" />
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_weight="3"
-                    app:srcCompat="@drawable/ios11weatherheavyrainicon">
-
-                </ImageView>
+                    app:srcCompat="@drawable/ios11weatherheavyrainicon" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginRight="15dp"
-                    android:layout_weight="1"
-                    android:gravity="center|right"
-                    android:text="@string/weatherPlus2D"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="8pt">
-
-                </TextView>
+                    style="@style/textWeatherTableRight"
+                    android:text="@string/weatherPlus2D" />
 
             </TableRow>
 
             <TableRow>
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="15dp"
-                    android:layout_weight="1"
-                    android:gravity="center|left"
-                    android:text="@string/datePlus3D"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="8pt">
-
-                </TextView>
+                    style="@style/textWeatherTableLeft"
+                    android:text="@string/datePlus3D" />
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -328,32 +264,16 @@
                 </ImageView>
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginRight="15dp"
-                    android:layout_weight="1"
-                    android:gravity="center|right"
-                    android:text="@string/weatherPlus3D"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="8pt">
-
-                </TextView>
+                    style="@style/textWeatherTableRight"
+                    android:text="@string/weatherPlus3D" />
 
             </TableRow>
 
             <TableRow>
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="15dp"
-                    android:layout_weight="1"
-                    android:gravity="center|left"
-                    android:text="@string/datePlus4D"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="8pt">
-
-                </TextView>
+                    style="@style/textWeatherTableLeft"
+                    android:text="@string/datePlus4D" />
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -364,32 +284,16 @@
                 </ImageView>
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginRight="15dp"
-                    android:layout_weight="1"
-                    android:gravity="center|right"
-                    android:text="@string/weatherPlus4D"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="8pt">
-
-                </TextView>
+                    style="@style/textWeatherTableRight"
+                    android:text="@string/weatherPlus4D" />
 
             </TableRow>
 
             <TableRow>
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="15dp"
-                    android:layout_weight="1"
-                    android:gravity="center|left"
-                    android:text="@string/datePlus5D"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="8pt">
-
-                </TextView>
+                    style="@style/textWeatherTableLeft"
+                    android:text="@string/datePlus5D" />
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -400,16 +304,8 @@
                 </ImageView>
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginRight="15dp"
-                    android:layout_weight="1"
-                    android:gravity="center|right"
-                    android:text="@string/weatherPlus5D"
-                    android:textColor="@color/colorCurrentTemperature"
-                    android:textSize="8pt">
-
-                </TextView>
+                    style="@style/textWeatherTableRight"
+                    android:text="@string/weatherPlus5D" />
 
             </TableRow>
 
