@@ -1,0 +1,12 @@
+        ((TextView) findViewById(R.id.time0H)).setText((data.hoursWeather.get(0)).getTime());
+        ((TextView) findViewById(R.id.temp0H)).setText(data.hoursWeather.get(0).getTemp());
+        changeCloudAmountImage(R.id.cloud0H, data.hoursWeather.get(0).getIconId());
+        ((TextView) findViewById(R.id.time3H)).setText(data.hoursWeather.get(1).getTime());
+        ((TextView) findViewById(R.id.temp3H)).setText(data.hoursWeather.get(1).getTemp());
+        changeCloudAmountImage(R.id.cloud3H, data.hoursWeather.get(1).getIconId());
+        ((TextView) findViewById(R.id.time6H)).setText(data.hoursWeather.get(2).getTime());
+        ((TextView) findViewById(R.id.temp6H)).setText(data.hoursWeather.get(2).getTemp());
+        changeCloudAmountImage(R.id.cloud6H, data.hoursWeather.get(2).getIconId());
+        ((TextView) findViewById(R.id.time9H)).setText(data.hoursWeather.get(3).getTime());
+        ((TextView) findViewById(R.id.temp9H)).setText(data.hoursWeather.get(3).getTemp());
+        changeCloudAmountImage(R.id.cloud9H, data.hoursWeather.get(3).getIconId());

@@ -16,6 +16,7 @@
         android:layout_centerInParent="true">
 
         <TextView
+            android:id="@+id/city"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -27,6 +28,7 @@
         </TextView>
 
         <TextView
+            android:id="@+id/currentTemp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/currentTemperature"
@@ -37,6 +39,7 @@
         </TextView>
 
         <TextView
+            android:id="@+id/currentCloud"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/currentCloudAmount"
@@ -59,6 +62,7 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/time0H"
                     style="@style/textTodayStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -67,6 +71,7 @@
                 </TextView>
 
                 <ImageView
+                    android:id="@+id/cloud0H"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     app:srcCompat="@drawable/ios11weatherrainicon">
@@ -74,6 +79,7 @@
                 </ImageView>
 
                 <TextView
+                    android:id="@+id/temp0H"
                     style="@style/textTodayStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -90,6 +96,41 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/time3H"
+                    style="@style/textTodayStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/timeNow">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/cloud3H"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/ios11weatherrainicon">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/temp3H"
+                    style="@style/textTodayStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/currentTemperature">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/time6H"
                     style="@style/textTodayStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -98,6 +139,7 @@
                 </TextView>
 
                 <ImageView
+                    android:id="@+id/cloud6H"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     app:srcCompat="@drawable/ios11weatherdrizzleicon">
@@ -105,6 +147,7 @@
                 </ImageView>
 
                 <TextView
+                    android:id="@+id/temp6H"
                     style="@style/textTodayStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -121,6 +164,7 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/time9H"
                     style="@style/textTodayStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -129,6 +173,7 @@
                 </TextView>
 
                 <ImageView
+                    android:id="@+id/cloud9H"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     app:srcCompat="@drawable/ios11weathercloudyicon">
@@ -136,6 +181,7 @@
                 </ImageView>
 
                 <TextView
+                    android:id="@+id/temp9H"
                     style="@style/textTodayStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -152,6 +198,7 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/time12H"
                     style="@style/textTodayStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -160,6 +207,7 @@
                 </TextView>
 
                 <ImageView
+                    android:id="@+id/cloud12H"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     app:srcCompat="@drawable/ios11weathercloudyicon">
@@ -167,41 +215,11 @@
                 </ImageView>
 
                 <TextView
+                    android:id="@+id/temp12H"
                     style="@style/textTodayStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/temperaturePlus3H">
-
-                </TextView>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <TextView
-                    style="@style/textTodayStyle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/timeNowPlus4H">
-
-                </TextView>
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    app:srcCompat="@drawable/ios11weatherclearnighticon">
-
-                </ImageView>
-
-                <TextView
-                    style="@style/textTodayStyle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/temperaturePlus4H">
 
                 </TextView>
 
@@ -217,16 +235,19 @@
             <TableRow>
 
                 <TextView
+                    android:id="@+id/date0D"
                     style="@style/textWeatherTableLeft"
                     android:text="@string/datePlus1D" />
 
                 <ImageView
+                    android:id="@+id/cloud0D"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_weight="3"
                     app:srcCompat="@drawable/ios11weatherdrizzleicon" />
 
                 <TextView
+                    android:id="@+id/temp0D"
                     style="@style/textWeatherTableRight"
                     android:text="@string/weatherPlus1D" />
 
@@ -235,16 +256,19 @@
             <TableRow>
 
                 <TextView
+                    android:id="@+id/date1D"
                     style="@style/textWeatherTableLeft"
                     android:text="@string/datePlus2D" />
 
                 <ImageView
+                    android:id="@+id/cloud1D"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_weight="3"
                     app:srcCompat="@drawable/ios11weatherheavyrainicon" />
 
                 <TextView
+                    android:id="@+id/temp1D"
                     style="@style/textWeatherTableRight"
                     android:text="@string/weatherPlus2D" />
 
@@ -253,10 +277,12 @@
             <TableRow>
 
                 <TextView
+                    android:id="@+id/date2D"
                     style="@style/textWeatherTableLeft"
                     android:text="@string/datePlus3D" />
 
                 <ImageView
+                    android:id="@+id/cloud2D"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_weight="3"
@@ -265,6 +291,7 @@
                 </ImageView>
 
                 <TextView
+                    android:id="@+id/temp2D"
                     style="@style/textWeatherTableRight"
                     android:text="@string/weatherPlus3D" />
 
@@ -273,10 +300,12 @@
             <TableRow>
 
                 <TextView
+                    android:id="@+id/date3D"
                     style="@style/textWeatherTableLeft"
                     android:text="@string/datePlus4D" />
 
                 <ImageView
+                    android:id="@+id/cloud3D"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_weight="3"
@@ -285,6 +314,7 @@
                 </ImageView>
 
                 <TextView
+                    android:id="@+id/temp3D"
                     style="@style/textWeatherTableRight"
                     android:text="@string/weatherPlus4D" />
 
@@ -293,10 +323,12 @@
             <TableRow>
 
                 <TextView
+                    android:id="@+id/date4D"
                     style="@style/textWeatherTableLeft"
                     android:text="@string/datePlus5D" />
 
                 <ImageView
+                    android:id="@+id/cloud4D"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_weight="3"
@@ -305,6 +337,7 @@
                 </ImageView>
 
                 <TextView
+                    android:id="@+id/temp4D"
                     style="@style/textWeatherTableRight"
                     android:text="@string/weatherPlus5D" />
 

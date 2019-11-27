@@ -7,11 +7,9 @@
     <string name="timeNowPlus1H">21:00</string>
     <string name="timeNowPlus2H">22:00</string>
     <string name="timeNowPlus3H">23:00</string>
-    <string name="timeNowPlus4H">00:00</string>
     <string name="temperaturePlus1H">20°</string>
     <string name="temperaturePlus2H">17°</string>
     <string name="temperaturePlus3H">14°</string>
-    <string name="temperaturePlus4H">10°</string>
     <string name="datePlus1D">Пн, 16.09</string>
     <string name="datePlus2D">Вт, 17.09</string>
     <string name="datePlus3D">Ср, 18.09</string>
@@ -22,6 +20,6 @@
     <string name="weatherPlus3D">15°/10°</string>
     <string name="weatherPlus4D">12°/9°</string>
     <string name="weatherPlus5D">17°/10°</string>
-
+    <string name="apiKey">fa75b579cad40c96d854f213092e45b3</string>
 
 </resources>
